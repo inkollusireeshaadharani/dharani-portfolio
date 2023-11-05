@@ -1,0 +1,219 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(209, 202, 243);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f5f5f5; */
+}
+
+.inner-element{
+    width: 80%;
+    margin-bottom: 20px;
+    /* background-color: #b5ffe6; */
+}
+
+.text-box{   
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 0px;
+    line-height: 25px;
+    text-align: justify;
+    font-weight: 450;
+    margin-bottom: 20px;
+    /* background-color: rgb(251, 172, 172); */
+}
+
+.heading{
+    margin:0px;
+    margin-top: 20px;
+    width: 80%;     /* if not present, heading would be in the middle */
+    padding: 10px;
+    font-weight: 700;
+    /* background-color: #81cbfc; */
+}
+
+.h1{
+    font-size: 34px;
+}
+
+.h2{
+    font-size: 32px;
+}
+
+.h3{
+    font-size: 26px;
+}
+
+.h4{
+    font-size: 22px;
+}
+
+.h5{
+    font-size: 18px;
+}
+
+.h6{
+    font-size: 16px;
+}
+
+.form{
+    padding: 10px;
+    /* background-color: #1e493b; */
+}
+
+.form label{
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+.form input{
+    display: block;
+    width: 280px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #a5a4a4;
+    border-radius: 2px;
+}
+
+.form button, .btn-submit{
+    padding: 5px;
+    width: 100px;
+    border: 1px solid #a5a4a4;
+    border-radius: 2px;
+    background-color: #000;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+button, .btn{
+    padding: 5px;
+    width: 100px;
+    border: 1px solid #a5a4a4;
+    border-radius: 2px;
+    background-color: #000;
+    cursor: pointer;
+    color: #ffffff;
+    margin-bottom: 3px;
+}
+
+.btn-success{
+    background-color: #28a745;
+}
+
+.btn-danger{
+    background-color: #e61125;
+}
+
+.btn-warning{
+    background-color: #ffc107;
+    color: #000000;
+}
+
+.btn-info{
+    background-color: #13899b;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav, .nav{
+    /* padding: 10px; */
+    margin: 20px;
+}
+
+/* if nav-item is not given, <a> tag is not in center */
+.nav-item{
+    display: inline-block;
+    /* background-color: yellow; */
+    /* a button is present inside, the button's margin occupies this yellow */
+    text-align: center;
+}
+
+.nav-link, .link-button{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
+}
+
+.custom-logo{
+    display: block;
+    width: 150px;
+    line-height: 70px;
+    border-radius: 5px;
+    background-color: #a128a7;
+    margin: 20px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo{
+    margin: 10px;
+}
+
+.logo-img{
+    display: block;
+    height: 70px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 20px;
+    color: #fff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    background-color: purple;
+    color: white;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+.img-in-box{
+    width: 30%;
+    background-color: red;
+}
+
+.banner-holder{
+    /* background-color: rgb(132, 79, 130); */
+    /* should work on this */
+    /* not able to navigate to sections of page */
+    position: fixed;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.welcome{
+    margin-top: 120px;
+}
+
+
